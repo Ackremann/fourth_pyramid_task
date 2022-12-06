@@ -102,12 +102,12 @@ class ChatTile extends StatelessWidget {
                 : Container(
                     padding: const EdgeInsets.all(8),
                     decoration: const BoxDecoration(
-                      color: ColorManager.white,
+                      color: Colors.transparent,
                       shape: BoxShape.circle,
                     ),
                     child: Text(
                       '0',
-                      style: getBoldStyle(color: ColorManager.white),
+                      style: getBoldStyle(color: Colors.transparent),
                     ),
                   )
           ],
